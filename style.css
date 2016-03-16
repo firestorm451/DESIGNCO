@@ -1,30 +1,85 @@
-body{
-  padding: 0;
-  margin: 0;
+* {
+  box-sizing: border-box;
+}
 
+body{
+  margin: 0;
+  padding-top: 30px;
 }
 
 nav {
-
   background-color: #d3d3d3;
   width: 100%;
-  height: 65px;
-  padding: 0;
+  height: 60px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 #logo{
-
+width: 120px;
+margin-bottom: 2px;
+margin-left: 150px;
+vertical-align: middle;
 }
 
 #search{
-
+width: 20px;
+float: right;
+margin-right: 100px;
 }
 
 nav ul {
-  display: inline;
-  /*vertical-align: top;*/
+  display: inline-block;
+  text-align: center;
+  margin: 0px;
+  padding: 0;
 }
 
-nav li {
-  display: inline;
+a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 30px;
+  padding: 0px;
+
+}
+
+h1 {
+  margin-top: 100px;
+  text-align: center;
+  }
+
+h3 {
+  text-align: center;
+}
+
+.container {
+  	display: flex;
+  	flex-wrap: wrap;
+  }
+
+footer {
+  margin-bottom: 50px;
+}
+
+h5 {
+  width: 200%
+}
+
+.left {
+  width: 25%;
+  float:left;
+}
+
+.right {
+  /*column-count:3;*/
+  /*-moz-column-count:3;*/
+  -webkit-column-count: 3;
+  width: 75%;
+  float:right;
 }
